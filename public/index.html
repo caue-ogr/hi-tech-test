@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- versão de desenvolvimento, inclui avisos úteis no console  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- versão de produção, otimizada para tamanho e velocidade -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        TESTE
+
+        <div id="app">
+            {{ message }}
+        </div>
+
+        <div id="app-2">
+            <span v-bind:title="message">
+                Pare o mouse sobre mim e veja a dica interligada dinamicamente!
+            </span>
+        </div>
+
+        <script src="action.js"></script>
+
+    </body>
+
+</html>
