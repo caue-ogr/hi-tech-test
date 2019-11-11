@@ -13,6 +13,6 @@ google.charts.load('current', {packages: ['corechart']});
         ['Santa Catarina', 2]
       ]);
 
-      var chart = new google.visualization.ColumnChart(document.getElementById('myPieChart'));
+      var chart = new google.visualization.ColumnChart(document.getElementById('myChart'));
       chart.draw(data, null);
     }
